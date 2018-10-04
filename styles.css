@@ -18,8 +18,11 @@
   }
 
   .placeholder-box {
-      height: 500px;
+      display: flex;
+      min-height: 300px;
       margin: 5%;
+      width: 33%;
+      min-width: 300px;
   }
   .placeholder-box h1 {
     font-family: 'IBM Plex Mono', monospace;
@@ -31,4 +34,11 @@
 
   .content {
       padding: 2%;
+  }
+
+  .banner {
+  }
+
+  .info {
+    display: flex;
   }
