@@ -7,7 +7,6 @@
     height: 100%;
     z-index: -1;
     background: linear-gradient(135deg,#bff3d4 0%,#bbe0f8 50%,#e1c9fe 100%);
-  
   }
   
   .gradient-box {
@@ -18,10 +17,9 @@
   }
 
   .placeholder-box {
-      height: 500px;
       margin: 5%;
   }
-  .placeholder-box h1 {
+  .placeholder-box h1, .placeholder-box h2 {
     font-family: 'IBM Plex Mono', monospace;
   }
 
