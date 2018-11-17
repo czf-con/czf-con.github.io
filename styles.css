@@ -1,4 +1,10 @@
 
+body {
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/linedpaper.png");
+  background-color: rgb(249,249,249);
+  margin: 0 auto;
+  max-width: 860px;
+}
 
 .gradient-box::before {
     content: '';
@@ -36,9 +42,6 @@
 
   .content {
       padding: 2%;
-  }
-
-  .banner {
   }
 
   .info {
