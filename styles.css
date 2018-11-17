@@ -44,7 +44,22 @@ body {
       padding: 2%;
   }
 
+  .banner {
+    margin-left: 7%;
+  }
+
   .info {
     display: flex;
     max-width: 80%
+  }
+
+  .exhibit {
+    display: flex;
+    min-height: 300px;
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+
+  .exhibit h1 {
+    font-family: 'IBM Plex Mono', monospace;
   }
