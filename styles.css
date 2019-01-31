@@ -19,6 +19,11 @@ h3 {
   width: 90%;
 }
 
+img#computer {
+  float: right;
+  max-width: 300px;
+}
+
 .boxes {
   display: flex;
   flex-flow: row wrap;
@@ -63,13 +68,20 @@ h3 {
     height: 200px;
   }
 
-  ul li {
+  ul.organizers li {
     list-style: none;
     font-family: 'IBM Plex Mono', monospace;
+  }
+
+  .highlight {
+    background: linear-gradient(135deg,#bbe0f8 50%,#e1c9fe 100%)
   }
 
 @media only screen and (max-width: 685px) {
   .placeholder-box {
     width: 80%;
   }
+  img#computer {
+  max-width: 100%;
+}
 }
