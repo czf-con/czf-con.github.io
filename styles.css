@@ -85,3 +85,9 @@ img#computer {
   max-width: 100%;
 }
 }
+
+ul li {
+  list-style: none;
+  border-bottom: solid 1px black;
+  margin: 1%;
+}
